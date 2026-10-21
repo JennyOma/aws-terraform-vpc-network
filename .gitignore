@@ -1,0 +1,23 @@
+# Terraform downloads
+**/.terraform/
+
+# Terraform state and saved plans
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Sensitive configuration
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+*.pem
+*.key
+
+# Crash logs
+crash.log
+crash.*.log
+
+# VS Code and Windows
+.vscode/
+Thumbs.db
